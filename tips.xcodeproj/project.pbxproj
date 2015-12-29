@@ -13,6 +13,13 @@
 		63B15EB01C30C7A400518D5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B15EAF1C30C7A400518D5C /* Images.xcassets */; };
 		63B15EB31C30C7A400518D5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B15EB11C30C7A400518D5C /* LaunchScreen.xib */; };
 		63B15EBF1C30C7A400518D5C /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B15EBE1C30C7A400518D5C /* tipsTests.swift */; };
+		63B15ECD1C30DA6000518D5C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B15ECC1C30DA6000518D5C /* ViewController2.swift */; };
+		63DBCFAE1C31E74C0030F9A9 /* person_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DBCFAC1C31E74C0030F9A9 /* person_deselected.png */; };
+		63DBCFAF1C31E74C0030F9A9 /* person_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DBCFAD1C31E74C0030F9A9 /* person_selected.png */; };
+		63DBCFB11C3212970030F9A9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBCFB01C3212970030F9A9 /* SettingsViewController.swift */; };
+		63DBCFB41C3217290030F9A9 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 63DBCFB21C3217290030F9A9 /* README */; };
+		63DBCFB51C3217290030F9A9 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DBCFB31C3217290030F9A9 /* TemplateIcon2x.png */; };
+		63DBCFB71C321A8D0030F9A9 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBCFB61C321A8D0030F9A9 /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		63B15EB81C30C7A400518D5C /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B15EBD1C30C7A400518D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63B15EBE1C30C7A400518D5C /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		63B15ECC1C30DA6000518D5C /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = tips/ViewController2.swift; sourceTree = "<group>"; };
+		63DBCFAC1C31E74C0030F9A9 /* person_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_deselected.png; sourceTree = "<group>"; };
+		63DBCFAD1C31E74C0030F9A9 /* person_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person_selected.png; sourceTree = "<group>"; };
+		63DBCFB01C3212970030F9A9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		63DBCFB21C3217290030F9A9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		63DBCFB31C3217290030F9A9 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		63DBCFB61C321A8D0030F9A9 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,9 @@
 		63B15E9A1C30C7A400518D5C = {
 			isa = PBXGroup;
 			children = (
+				63DBCFB21C3217290030F9A9 /* README */,
+				63DBCFB31C3217290030F9A9 /* TemplateIcon2x.png */,
+				63B15ECC1C30DA6000518D5C /* ViewController2.swift */,
 				63B15EA51C30C7A400518D5C /* tips */,
 				63B15EBB1C30C7A400518D5C /* tipsTests */,
 				63B15EA41C30C7A400518D5C /* Products */,
@@ -77,9 +94,13 @@
 		63B15EA51C30C7A400518D5C /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				63DBCFAC1C31E74C0030F9A9 /* person_deselected.png */,
+				63DBCFAD1C31E74C0030F9A9 /* person_selected.png */,
 				63B15EA81C30C7A400518D5C /* AppDelegate.swift */,
 				63B15EAA1C30C7A400518D5C /* ViewController.swift */,
 				63B15EAC1C30C7A400518D5C /* Main.storyboard */,
+				63DBCFB61C321A8D0030F9A9 /* SettingsTableViewController.swift */,
+				63DBCFB01C3212970030F9A9 /* SettingsViewController.swift */,
 				63B15EAF1C30C7A400518D5C /* Images.xcassets */,
 				63B15EB11C30C7A400518D5C /* LaunchScreen.xib */,
 				63B15EA61C30C7A400518D5C /* Supporting Files */,
@@ -192,9 +213,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63DBCFB41C3217290030F9A9 /* README in Resources */,
+				63DBCFAE1C31E74C0030F9A9 /* person_deselected.png in Resources */,
 				63B15EAE1C30C7A400518D5C /* Main.storyboard in Resources */,
+				63DBCFAF1C31E74C0030F9A9 /* person_selected.png in Resources */,
 				63B15EB31C30C7A400518D5C /* LaunchScreen.xib in Resources */,
 				63B15EB01C30C7A400518D5C /* Images.xcassets in Resources */,
+				63DBCFB51C3217290030F9A9 /* TemplateIcon2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B15EAB1C30C7A400518D5C /* ViewController.swift in Sources */,
+				63DBCFB71C321A8D0030F9A9 /* SettingsTableViewController.swift in Sources */,
 				63B15EA91C30C7A400518D5C /* AppDelegate.swift in Sources */,
+				63B15ECD1C30DA6000518D5C /* ViewController2.swift in Sources */,
+				63DBCFB11C3212970030F9A9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +435,7 @@
 				63B15EC41C30C7A400518D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63B15EC51C30C7A400518D5C /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +444,7 @@
 				63B15EC71C30C7A400518D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
